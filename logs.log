@@ -5545,3 +5545,55 @@ KeyError: "['arrival_date_month', 'meal', 'market_segment', 'distribution_channe
                                         warm_start=False))],
          verbose=False)
 2024-12-31 17:43:16,471:INFO:save_model() successfully completed......................................
+2025-01-03 14:06:04,751:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-03 14:06:04,751:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-03 14:06:04,751:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-03 14:06:04,751:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-05 10:27:09,384:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-05 10:27:09,384:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-05 10:27:09,385:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-05 10:27:09,385:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-01-05 13:52:58,290:WARNING:C:\Users\szymo\AppData\Local\Temp\ipykernel_7484\3902039270.py:1: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x='customer_type', y='lead_time', data=dane, palette='viridis')
+
+2025-01-05 13:53:07,788:WARNING:C:\Users\szymo\AppData\Local\Temp\ipykernel_7484\4035356671.py:1: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x='customer_type', y='lead_time', data=dane, palette='viridis')
+
+2025-01-05 14:18:03,226:WARNING:C:\Users\szymo\AppData\Local\Temp\ipykernel_7484\1794896873.py:1: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x='hotel', y='lead_time', data=dane, palette='viridis')
+
+2025-01-05 14:35:06,838:WARNING:C:\Users\szymo\AppData\Local\Temp\ipykernel_7484\913775233.py:1: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x='is_canceled', data=dane, palette={0: 'lightgreen', 1: 'salmon'})
+
+2025-01-05 14:44:10,329:WARNING:C:\Users\szymo\AppData\Local\Temp\ipykernel_7484\667774231.py:9: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.boxplot(x="lead_time_bin", y="is_canceled", data=dane, palette="Set2")
+
+2025-01-05 14:45:11,473:WARNING:C:\Users\szymo\AppData\Local\Temp\ipykernel_7484\715935203.py:6: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.boxplot(x=pd.cut(dane['lead_time'], bins=bins, labels=labels, right=False),
+
